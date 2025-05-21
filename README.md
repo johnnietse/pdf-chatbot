@@ -59,5 +59,61 @@ Basic knowledge of HTML/CSS, JavaScript, and Python is helpful but not required.
    virtualenv my_env
    source my_env/bin/activate
 
+2. Clone the repository:
+
+bash
+git clone https://github.com/sinanazeri/build_chatbot_for_your_data-design-.git
+mv build_chatbot_for_your_data-design- build_chatbot_for_your_data
+cd build_chatbot_for_your_data
+Install dependencies:
+
+bash
+pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb==0.4.15 pypdf tiktoken
+Frontend Overview
+HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
+
+Key Files:
+
+index.html: Layout and structure.
+
+style.css: Visual styling and animations.
+
+script.js: Interactivity (messaging, theme toggling, etc.).
+
+Understanding The Worker: Document Processing and Conversation Management
+Key Functions
+Language Model Initialization:
+
+Uses OpenAI's GPT-3.5-turbo.
+
+Requires an API key (set in environment variables).
+
+PDF Processing:
+
+Loads PDFs with PyPDFLoader.
+
+Splits documents into chunks with CharacterTextSplitter.
+
+Creates a vector store (Chroma) for retrieval.
+
+Prompt Handling:
+
+Processes user messages with ConversationalRetrievalChain.
+
+Maintains chat history for context.
+
+Understanding The Server
+Flask Backend
+Routes:
+
+/: Serves the frontend (index.html).
+
+/process-document: Handles PDF uploads.
+
+/process-message: Processes user queries.
+
+CORS Policy
+Configured to allow requests from any domain ('*').
+
 ![Screenshot (1181)](https://github.com/user-attachments/assets/d9a56ba3-254d-4bbd-b1f6-7c97a3b33611)
 ![Screenshot (1182)](https://github.com/user-attachments/assets/049ecb09-833e-46b1-bfe9-fcd8f127a505)
