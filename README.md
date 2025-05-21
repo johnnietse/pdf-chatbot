@@ -1,2 +1,63 @@
+# PDF Chatbot with Flask and Langchain
+
+![Chatbot Interface](https://mydream.com/image.png) <!-- Replace with actual image URL -->
+
+A chatbot that interacts with users via text and answers questions based on the content of a specific PDF document. Built with Flask, Langchain, and OpenAI's GPT-3.5-turbo.
+
+## Features
+
+- **PDF Processing**: Upload and process PDF documents for conversational retrieval.
+- **AI-Powered Responses**: Utilizes OpenAI's GPT-3.5-turbo for intelligent responses.
+- **Interactive UI**: Ready-to-use frontend with HTML, CSS, and JavaScript.
+- **Light/Dark Mode**: Toggle between light and dark themes.
+- **Easy Deployment**: Docker support for consistent deployment across environments.
+
+## Table of Contents
+
+1. [Build a Chatbot for your Data](#build-a-chatbot-for-your-data)
+2. [Setting Up and Understanding the User Interface](#setting-up-and-understanding-the-user-interface)
+3. [Understanding The Worker: Document Processing and Conversation Management](#understanding-the-worker-document-processing-and-conversation-management)
+4. [Understanding The Server](#understanding-the-server)
+5. [(Optional) Advanced Exercises](#optional-advanced-exercises)
+6. [Running the Application](#running-the-application)
+7. [Conclusion](#conclusion)
+
+---
+
+## Build a Chatbot for your Data
+
+**Estimated time needed:** 60 minutes
+
+### Introduction
+Create a chatbot for your PDF files using Flask (web framework) and Langchain (for Large Language Models). The chatbot comprehends and answers questions about document content.
+
+**Demo:** [Try The Demo App](#)
+
+### Key Technologies
+- **Flask**: Lightweight Python web framework for backend development.
+- **Langchain**: Framework for AI-driven language applications (text retrieval, summarization, etc.).
+- **Chatbots**: Human-like conversation software for diverse domains (customer service, education, etc.).
+
+### Learning Objectives
+- Understand Langchain and AI applications.
+- Set up a development environment with Python Flask.
+- Implement PDF upload functionality.
+- Integrate with OpenAI's GPT-3 model.
+- (Optional) Deploy to a web server.
+
+### Prerequisites
+Basic knowledge of HTML/CSS, JavaScript, and Python is helpful but not required.
+
+---
+
+## Setting Up and Understanding the User Interface
+
+### Setup
+1. Create a virtual environment:
+   ```bash
+   pip3 install virtualenv
+   virtualenv my_env
+   source my_env/bin/activate
+
 ![Screenshot (1181)](https://github.com/user-attachments/assets/d9a56ba3-254d-4bbd-b1f6-7c97a3b33611)
 ![Screenshot (1182)](https://github.com/user-attachments/assets/049ecb09-833e-46b1-bfe9-fcd8f127a505)
