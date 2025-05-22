@@ -52,23 +52,46 @@ Basic knowledge of HTML/CSS, JavaScript, and Python is helpful but not required.
 
 ## Setting Up and Understanding the User Interface
 
-### Setup
-1. Create a virtual environment:
+### Initial Setup
+1. Download the ZIP File from the repository and extract it
+   i. Locate the downloaded ZIP file (e.g., my_project.zip).
+   ii. Right-click → Extract All (Windows) or double-click (Mac/Linux).
+   iii. Save the extracted folder to a preferred location (e.g., Documents/ or Downloads/).
+
+
+2. Open a Terminal
+   - Navigate to the extracted folder:
+
+```bash
+cd path/to/extracted_folder
+```
+
+Note: (Replace path/to/extracted_folder with your actual path.)
+
+3. Create a virtual environment:
    ```bash
    pip3 install virtualenv
    virtualenv my_env
-   source my_env/bin/activate
+   ```
+   -  For Windows:
+     ```bash
+      my_env\Scripts\activate
+     ```
+     
+   - For Mac/Linux:
+      ```bash
+      source my_env/bin/activate
+      ```
+      
+4. Install dependencies:
 
-2. Clone the repository:
-
-bash
-git clone https://github.com/sinanazeri/build_chatbot_for_your_data-design-.git
-mv build_chatbot_for_your_data-design- build_chatbot_for_your_data
-cd build_chatbot_for_your_data
-Install dependencies:
-
-bash
+```bash
 pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb==0.4.15 pypdf tiktoken
+```
+
+5. Since the project includes a requirements.txt, use "pip install -r requirements.txt" in addition to running the above command.
+
+
 Frontend Overview
 HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
 
