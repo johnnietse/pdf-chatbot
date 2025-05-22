@@ -92,16 +92,13 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 5. Since the project includes a requirements.txt, use "pip install -r requirements.txt" in addition to running the above command.
 
 
-Frontend Overview
-HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
+## Frontend Overview
+- HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
+- Key Files:
+   - index.html: Layout and structure.
+   - style.css: Visual styling and animations.
+   - script.js: Interactivity (messaging, theme toggling, etc.).
 
-Key Files:
-
-index.html: Layout and structure.
-
-style.css: Visual styling and animations.
-
-script.js: Interactivity (messaging, theme toggling, etc.).
 
 Understanding The Worker: Document Processing and Conversation Management
 Key Functions
