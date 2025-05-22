@@ -100,39 +100,31 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
    - script.js: Interactivity (messaging, theme toggling, etc.).
 
 
-Understanding The Worker: Document Processing and Conversation Management
-Key Functions
-Language Model Initialization:
+## Understanding The Worker: Document Processing and Conversation Management
 
-Uses OpenAI's GPT-3.5-turbo.
+### Key Functions
+1. Language Model Initialization:
+- Uses OpenAI's GPT-3.5-turbo.
+- Requires an API key (set in environment variables).
 
-Requires an API key (set in environment variables).
+2. PDF Processing:
+- Loads PDFs with PyPDFLoader.
+- Splits documents into chunks with CharacterTextSplitter.
+- Creates a vector store (Chroma) for retrieval.
 
-PDF Processing:
+3. Prompt Handling:
+- Processes user messages with ConversationalRetrievalChain.
+- Maintains chat history for context.
 
-Loads PDFs with PyPDFLoader.
 
-Splits documents into chunks with CharacterTextSplitter.
+## Understanding The Server
+### Flask Backend
+- Routes:
+   - /: Serves the frontend (index.html).
+   - /process-document: Handles PDF uploads.
+   - /process-message: Processes user queries.
 
-Creates a vector store (Chroma) for retrieval.
-
-Prompt Handling:
-
-Processes user messages with ConversationalRetrievalChain.
-
-Maintains chat history for context.
-
-Understanding The Server
-Flask Backend
-Routes:
-
-/: Serves the frontend (index.html).
-
-/process-document: Handles PDF uploads.
-
-/process-message: Processes user queries.
-
-CORS Policy
+### CORS Policy
 Configured to allow requests from any domain ('*').
 
 ![Screenshot (1181)](https://github.com/user-attachments/assets/d9a56ba3-254d-4bbd-b1f6-7c97a3b33611)
