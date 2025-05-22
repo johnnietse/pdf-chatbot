@@ -96,9 +96,9 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 ## Frontend Overview
 - HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
 - Key Files:
-   - index.html: Layout and structure.
-   - style.css: Visual styling and animations.
-   - script.js: Interactivity (messaging, theme toggling, etc.).
+   - `index.html`: Layout and structure.
+   - `style.css`: Visual styling and animations.
+   - `script.js`: Interactivity (messaging, theme toggling, etc.).
 
 
 ## Understanding The Worker: Document Processing and Conversation Management
