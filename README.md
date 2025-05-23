@@ -129,3 +129,23 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 Configured to allow requests from any domain ('`*`').
 
 
+## Running the Application
+### Local Execution
+```bash
+python3 server.py
+```
+Access the app at `http://127.0.0.1:8080`.
+
+### Docker Deployment
+
+1. Build the image:
+
+```bash
+docker build -t build_chatbot_for_your_data .
+```
+
+2. Run the container:
+
+```bash
+docker run -p 8080:8080 build_chatbot_for_your_data
+```
