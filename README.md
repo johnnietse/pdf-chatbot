@@ -121,9 +121,9 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 ## Understanding The Server
 ### Flask Backend
 - Routes:
-   - /: Serves the frontend (index.html).
-   - /process-document: Handles PDF uploads.
-   - /process-message: Processes user queries.
+   - `/`: Serves the frontend (`index.html`).
+   - `/process-document`: Handles PDF uploads.
+   - `/process-message`: Processes user queries.
 
 ### CORS Policy
 Configured to allow requests from any domain ('*').
