@@ -94,7 +94,7 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 - Get a key from OpenAI.
 - In worker.py, add your actual key into the quotations -> `api_key = " "`.
 
-7. Running the Application
+7. Running the Application:
 ### Local Execution
 ```bash
 python3 server.py
