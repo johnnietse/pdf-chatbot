@@ -79,7 +79,7 @@ Note: (Replace path/to/extracted_folder with your actual path.)
      
    - For Mac/Linux:
       ```bash
-      source my_env/bin/activate
+       source my_env/bin/activate
       ```
       
 4. Install dependencies:
