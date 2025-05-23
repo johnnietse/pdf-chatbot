@@ -72,15 +72,15 @@ Note: (Replace path/to/extracted_folder with your actual path.)
    pip3 install virtualenv
    virtualenv my_env
    ```
-   -  For Windows:
+   - For Windows:
      ```bash
-      my_env\Scripts\activate
+     my_env\Scripts\activate
      ```
      
    - For Mac/Linux:
-      ```bash
-       source my_env/bin/activate
-      ```
+     ```bash
+     source my_env/bin/activate
+     ```
       
 4. Install dependencies:
 
