@@ -23,7 +23,7 @@ This project solves that: Create an AI assistant that digests PDFs in seconds an
 2. [Setting Up and Understanding the User Interface](#setting-up-and-understanding-the-user-interface)
 3. [Using the Chatbot](#using-the-chatbot)
 4. [Troubleshooting](#troubleshooting)
-5. [Docker Deployment (Optional)](#docker-deployment-(optional))
+5. [Docker Deployment (Optional)](#docker-deployment-optional)
 6. [Frontend Overview](#frontend-overview)
 7. [Understanding The Worker: Document Processing and Conversation Management](#understanding-the-worker-document-processing-and-conversation-management)
 8. [Understanding The Server](#understanding-the-server)
