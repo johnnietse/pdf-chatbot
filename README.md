@@ -89,6 +89,10 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 ```
 
 5. Since the project includes a requirements.txt, use "pip install -r requirements.txt" in addition to running the above command.
+   
+6. Add your OpenAI API key
+- Get a key from OpenAI.
+- In worker.py, add your actual key into the quotations -> `api_key = " "`.
 
 
 ## Frontend Overview
