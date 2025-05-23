@@ -111,12 +111,12 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 - Requires an API key (set in environment variables).
 
 2. **PDF Processing**:
-- Loads PDFs with PyPDFLoader.
-- Splits documents into chunks with CharacterTextSplitter.
-- Creates a vector store (Chroma) for retrieval.
+- Loads PDFs with `PyPDFLoader`.
+- Splits documents into chunks with `CharacterTextSplitter`.
+- Creates a vector store (`Chroma`) for retrieval.
 
 3. **Prompt Handling**:
-- Processes user messages with ConversationalRetrievalChain.
+- Processes user messages with `ConversationalRetrievalChain`.
 - Maintains chat history for context.
 
 
