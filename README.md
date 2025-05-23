@@ -92,7 +92,7 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
    
 6. Add your OpenAI API key
 - Get a key from OpenAI.
-- In worker.py, add your actual key into the quotations -> `api_key = " "`.
+- In `worker.py`, add your actual key into the quotations -> `api_key = " "`.
 
 7. Running the Application:
 ### Local Execution
@@ -111,6 +111,7 @@ Access the app at `http://127.0.0.1:8080`. Visit it to use the chatbot.
 - **PDF upload fails**: Check if the file is valid (e.g., not corrupted).
 - **Slow responses**: Reduce `chunk_size` in `CharacterTextSplitter`.
 - **Port 8080 busy**: To fix it,	Run `lsof -i :8080` (Mac/Linux) or `netstat -ano findstr :8080` (Windows) to free the port.
+- ***Port conflicts**: Change the port in server.py (e.g., port=8000).
 - **Missing modules**: Reinstall dependencies with `pip install -r requirements.txt`.
 
 ## Docker Deployment (Optional)
