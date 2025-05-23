@@ -149,3 +149,11 @@ docker build -t build_chatbot_for_your_data .
 ```bash
 docker run -p 8080:8080 build_chatbot_for_your_data
 ```
+
+### Conclusions
+You’ve built a chatbot capable of:
+- **Retrieval-Augmented Search**: Leveraging document content for answers.
+- **Langchain Integration**: Using embeddings and vector stores.
+- **Full-Stack Development**: Combining Flask, JavaScript, and AI models.
+
+
