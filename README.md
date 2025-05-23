@@ -108,12 +108,12 @@ python3 server.py
 ```
 Access the app at `http://127.0.0.1:8080`. Visit it to use the chatbot.
 
-## 🖥️ Using the Chatbot
+## Using the Chatbot
 1. Upload a PDF via the web interface.
 2. Ask questions about the document content.
 3. Reset the chat anytime to start over.
 
-## 💡 Troubleshooting
+## Troubleshooting
 - **"API key not found"**: Ensure your OpenAI key is set in `worker.py`.
 - **PDF upload fails**: Check if the file is valid (e.g., not corrupted).
 - **Slow responses**: Reduce `chunk_size` in `CharacterTextSplitter`.
