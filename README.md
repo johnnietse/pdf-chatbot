@@ -27,8 +27,6 @@ A chatbot that interacts with users via text and answers questions based on the 
 
 ## Build a Chatbot for your Data
 
-**Estimated time needed:** 60 minutes
-
 ### Introduction
 Create a chatbot for your PDF files using Flask (web framework) and Langchain (for Large Language Models). The chatbot comprehends and answers questions about document content.
 
