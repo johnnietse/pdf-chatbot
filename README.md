@@ -152,10 +152,25 @@ docker build -t build_chatbot_for_your_data .
 docker run -p 8080:8080 build_chatbot_for_your_data
 ```
 
+---
+
+## 🖥️ Using the Chatbot
+1. Upload a PDF via the web interface.
+2. Ask questions about the document content.
+3. Reset the chat anytime to start over.
+
+
+## 💡 Troubleshooting
+- **"API key not found"**: Ensure your OpenAI key is set in `worker.py`.
+- **PDF upload fails**: Check if the file is valid (e.g., not corrupted).
+- **Slow responses**: Reduce `chunk_size` in `CharacterTextSplitter`.
+
+
+
 ### Conclusions
 You’ve built a chatbot capable of:
-- **Retrieval-Augmented Search**: Leveraging document content for answers.
-- **Langchain Integration**: Using embeddings and vector stores.
-- **Full-Stack Development**: Combining Flask, JavaScript, and AI models.
+- **Retrieval-Augmented Search and Generation**: Leveraging document content for answers & Combine LLMs with document data.
+- **Langchain Integration**: Using embeddings and vector stores & Processing documents with embeddings and vector stores.
+- **Full-Stack Development**: Combining Flask, JavaScript, and AI models & Using Flask to build a backend for handling requests.
 
 
