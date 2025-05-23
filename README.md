@@ -152,7 +152,6 @@ docker build -t build_chatbot_for_your_data .
 docker run -p 8080:8080 build_chatbot_for_your_data
 ```
 
----
 
 ## 🖥️ Using the Chatbot
 1. Upload a PDF via the web interface.
@@ -167,7 +166,7 @@ docker run -p 8080:8080 build_chatbot_for_your_data
 
 
 
-### Conclusions
+## Conclusions
 You’ve built a chatbot capable of:
 - **Retrieval-Augmented Search and Generation**: Leveraging document content for answers & Combine LLMs with document data.
 - **Langchain Integration**: Using embeddings and vector stores & Processing documents with embeddings and vector stores.
