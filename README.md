@@ -21,11 +21,13 @@ This project solves that: Create an AI assistant that digests PDFs in seconds an
 
 1. [Build a Chatbot for your Data](#build-a-chatbot-for-your-data)
 2. [Setting Up and Understanding the User Interface](#setting-up-and-understanding-the-user-interface)
-3. [Understanding The Worker: Document Processing and Conversation Management](#understanding-the-worker-document-processing-and-conversation-management)
-4. [Understanding The Server](#understanding-the-server)
-5. [(Optional) Advanced Exercises](#optional-advanced-exercises)
-6. [Running the Application](#running-the-application)
-7. [Conclusion](#conclusion)
+3. [Using the Chatbot](#using-the-chatbot)
+4. [Troubleshooting](#troubleshooting)
+5. [Docker Deployment (Optional)](#docker-deployment-(optional))
+6. [Frontend Overview](#frontend-overview)
+7. [Understanding The Worker: Document Processing and Conversation Management](#understanding-the-worker-document-processing-and-conversation-management)
+8. [Understanding The Server](#understanding-the-server)
+9. [Conclusions](#conclusions)
 
 ---
 
