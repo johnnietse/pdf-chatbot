@@ -94,6 +94,38 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 - Get a key from OpenAI.
 - In worker.py, add your actual key into the quotations -> `api_key = " "`.
 
+7. Running the Application
+### Local Execution
+```bash
+python3 server.py
+```
+Access the app at `http://127.0.0.1:8080`. Visit it to use the chatbot.
+
+## 🖥️ Using the Chatbot
+1. Upload a PDF via the web interface.
+2. Ask questions about the document content.
+3. Reset the chat anytime to start over.
+
+## 💡 Troubleshooting
+- **"API key not found"**: Ensure your OpenAI key is set in `worker.py`.
+- **PDF upload fails**: Check if the file is valid (e.g., not corrupted).
+- **Slow responses**: Reduce `chunk_size` in `CharacterTextSplitter`.
+- **Port 8080 busy**: To fix it,	Run `lsof -i :8080` (Mac/Linux) or `netstat -ano findstr :8080` (Windows) to free the port.
+- **Missing modules**: Reinstall dependencies with `pip install -r requirements.txt`.
+
+## Docker Deployment (Optional)
+
+1. Build the image:
+
+```bash
+docker build -t build_chatbot_for_your_data .
+```
+
+2. Run the container:
+
+```bash
+docker run -p 8080:8080 build_chatbot_for_your_data
+```
 
 ## Frontend Overview
 - HTML/CSS/JavaScript: Ready-to-use interface with Bootstrap, Font Awesome, and jQuery.
@@ -129,41 +161,6 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 
 ### CORS Policy
 Configured to allow requests from any domain ('`*`').
-
-
-## Running the Application
-### Local Execution
-```bash
-python3 server.py
-```
-Access the app at `http://127.0.0.1:8080`.
-
-### Docker Deployment
-
-1. Build the image:
-
-```bash
-docker build -t build_chatbot_for_your_data .
-```
-
-2. Run the container:
-
-```bash
-docker run -p 8080:8080 build_chatbot_for_your_data
-```
-
-
-## 🖥️ Using the Chatbot
-1. Upload a PDF via the web interface.
-2. Ask questions about the document content.
-3. Reset the chat anytime to start over.
-
-
-## 💡 Troubleshooting
-- **"API key not found"**: Ensure your OpenAI key is set in `worker.py`.
-- **PDF upload fails**: Check if the file is valid (e.g., not corrupted).
-- **Slow responses**: Reduce `chunk_size` in `CharacterTextSplitter`.
-
 
 
 ## Conclusions
