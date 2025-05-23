@@ -2,6 +2,10 @@
 
 A chatbot that interacts with users via text and answers questions based on the content of a specific PDF document. Built with Flask, Langchain, and OpenAI's GPT-3.5-turbo.
 
+## Why Build a Chatbot to Analyze PDF Documents Using LLM?
+In organizations, thousands of pages of PDFs (manuals, reports, contracts) hold critical knowledge. Manually reading them is time-consuming and error-prone.
+This project solves that: Create an AI assistant that digests PDFs in seconds and answers questions like a human expert about what it had read, while processing sensitive PDFs locally (no cloud uploads) to ensure data privacy. This is especially critical scenarios where you need to keep thousands of pages of information confidential for snensitive materials like internal manuals, proprietary reports, legal contracts, or medical records, while also requiring an AI-powered personal assistant chatbot to summarize the reading for you in seconds.
+
 ![Screenshot (1181)](https://github.com/user-attachments/assets/d9a56ba3-254d-4bbd-b1f6-7c97a3b33611)
 ![Screenshot (1182)](https://github.com/user-attachments/assets/049ecb09-833e-46b1-bfe9-fcd8f127a505)
 
@@ -164,7 +168,6 @@ docker run -p 8080:8080 build_chatbot_for_your_data
 ### CORS Policy
 Configured to allow requests from any domain ('`*`').
 
-
 ## Conclusions
 You’ve built a chatbot capable of:
 - **Retrieval-Augmented Search and Generation**: Leveraging document content for answers & Combine LLMs with document data.
@@ -172,3 +175,7 @@ You’ve built a chatbot capable of:
 - **Full-Stack Development**: Combining Flask, JavaScript, and AI models & Using Flask to build a backend for handling requests.
 
 
+---
+
+# Project Attribution
+This chatbot was developed as part of a guided project tutorial provided by the IBM Cognitive Class AI platform. The project demonstrates the integration of Flask, LangChain, and Large Language Models (LLMs) to build an AI-powered assistant capable of analyzing and answering questions about PDF documents.
