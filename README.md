@@ -104,16 +104,16 @@ pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb=
 ## Understanding The Worker: Document Processing and Conversation Management
 
 ### Key Functions
-1. Language Model Initialization:
+1. **Language Model Initialization**:
 - Uses OpenAI's GPT-3.5-turbo.
 - Requires an API key (set in environment variables).
 
-2. PDF Processing:
+2. **PDF Processing**:
 - Loads PDFs with PyPDFLoader.
 - Splits documents into chunks with CharacterTextSplitter.
 - Creates a vector store (Chroma) for retrieval.
 
-3. Prompt Handling:
+3. **Prompt Handling**:
 - Processes user messages with ConversationalRetrievalChain.
 - Maintains chat history for context.
 
