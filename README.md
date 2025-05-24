@@ -60,9 +60,9 @@ Basic knowledge of HTML/CSS, JavaScript, and Python is helpful but not required.
 
 ### Initial Setup
 1. Download the ZIP File from the repository and extract it
-   i. Locate the downloaded ZIP file (e.g., my_project.zip).
-   ii. Right-click → Extract All (Windows) or double-click (Mac/Linux).
-   iii. Save the extracted folder to a preferred location (e.g., Documents/ or Downloads/).
+i. Locate the downloaded ZIP file (e.g., my_project.zip).
+ii. Right-click → Extract All (Windows) or double-click (Mac/Linux).
+iii. Save the extracted folder to a preferred location (e.g., Documents/ or Downloads/).
 
 
 2. Open a Terminal
