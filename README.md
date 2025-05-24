@@ -44,6 +44,12 @@ Create a chatbot for your PDF files using Flask (web framework) and Langchain (f
 - **Langchain**: Framework for AI-driven language applications (text retrieval, summarization, etc.).
 - **Chatbots**: Human-like conversation software for diverse domains (customer service, education, etc.).
 
+### Tech Stack
+- HTML
+- CSS
+- JavaScript
+- Python
+
 ### Learning Objectives
 - Understand Langchain and AI applications.
 - Set up a development environment with Python Flask.
