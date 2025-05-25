@@ -1,0 +1,4 @@
+# Force all files with a specific extension to be recognized as "MyLanguage"
+*.mylang linguist-language=MyLanguage
+
+*.scr linguist-language=Python
