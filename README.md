@@ -220,5 +220,4 @@ The local version provides similar functionality to this API-based version but w
 A short walkthrough of the Conference Management System is available below. This demo highlights all core features, including attendee management, sponsorship controls, job postings, and session scheduling.
 
 ▶️ Watch the full demo here:
-https://youtu.be/ZneCAXwxeyw?si=ESPYLNKF9HCRntLk
-
+https://youtu.be/uIYhWCeb01A
