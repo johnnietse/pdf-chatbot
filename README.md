@@ -187,3 +187,30 @@ You’ve built a chatbot capable of:
 
 # Project Attribution
 This chatbot was developed as part of a guided project tutorial provided by the IBM Cognitive Class AI platform. The project demonstrates the integration of Flask, LangChain, and Large Language Models (LLMs) to build an AI-powered assistant capable of analyzing and answering questions about PDF documents.
+
+---
+# Important Notice: Local LLM Version Available
+If you want to test this chatbot but don't have an OpenAI or DeepSeek API key with available credit, I've created a special version that uses local LLMs instead of paid APIs:
+
+👉 Check out the Local LLM Version Here: https://github.com/johnnietse/pdf-chatbot-local-LLM.git
+This alternative version:
+- 💰 Requires no API keys or credits
+- 🖥️ Runs entirely on your local machine
+- 🚫 Has no usage costs
+- 🔒 Processes your documents locally (no data leaves your computer)
+- 🧠 Uses open-source language models like TinyLlama and Mistral
+
+Key Features of the Local Version:
+- PDF document processing and question answering
+- Light/dark mode interface
+- Conversation history
+- Support for multiple open-source LLMs
+- GPU acceleration option (for faster responses)
+
+Why Use the Local Version?
+1. No API Costs: Avoid monthly subscriptions or pay-per-use fees
+2. Privacy: Your documents never leave your computer
+3. Always Available: No dependency on external services
+4. Customizable: Use different open-source models as needed
+
+The local version provides similar functionality to this API-based version but with no ongoing costs. You only need to download the model files once (about 600MB for TinyLlama, or 4-6GB for larger models).
