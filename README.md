@@ -215,3 +215,7 @@ Why Use the Local Version?
 4. Customizable: Use different open-source models as needed
 
 The local version provides similar functionality to this API-based version but with no ongoing costs. You only need to download the model files once (about 600MB for TinyLlama, or 4-6GB for larger models).
+
+
+https://youtu.be/ZneCAXwxeyw?si=ESPYLNKF9HCRntLk
+
