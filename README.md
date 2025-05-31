@@ -193,6 +193,7 @@ This chatbot was developed as part of a guided project tutorial provided by the 
 If you want to test this chatbot but don't have an OpenAI or DeepSeek API key with available credit, I have created a special version that uses local LLMs instead of paid APIs:
 
 👉 Check out the Local LLM Version Here: https://github.com/johnnietse/pdf-chatbot-local-LLM.git
+
 This alternative version:
 - 💰 Requires no API keys or credits
 - 🖥️ Runs entirely on your local machine
