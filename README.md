@@ -81,10 +81,10 @@ cd path/to/extracted_folder
 Note: (Replace path/to/extracted_folder with your actual path.)
 
 3. Create a virtual environment:
-   ```bash
-   pip3 install virtualenv
-   virtualenv my_env
-   ```
+```bash
+pip3 install virtualenv
+virtualenv my_env
+```
 - For Windows:
 ```bash
 my_env\Scripts\activate
