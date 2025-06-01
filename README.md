@@ -28,6 +28,9 @@ This project solves that: Create an AI assistant that digests PDFs in seconds an
 7. [Understanding The Worker: Document Processing and Conversation Management](#understanding-the-worker-document-processing-and-conversation-management)
 8. [Understanding The Server](#understanding-the-server)
 9. [Conclusions](#conclusions)
+10. [Project Attribution](#project-attribution)
+11. [Important Notice: Local LLM Version Available](#important-notice-local-llm-version-available)
+12. [Demo Video](#demo-video)
 
 ---
 
