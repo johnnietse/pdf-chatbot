@@ -192,6 +192,17 @@ You’ve built a chatbot capable of:
 This chatbot was developed as part of a guided project tutorial provided by the IBM Cognitive Class AI platform. The project demonstrates the integration of Flask, LangChain, and Large Language Models (LLMs) to build an AI-powered assistant capable of analyzing and answering questions about PDF documents.
 
 ---
+# Copyright Statement
+The original codebase for this project is the intellectual property of IBM Cognitive AI Platform. All rights to the core architecture, foundational algorithms, and pre-existing implementation are retained by IBM.
+
+My contributions are limited to:
+- Debugging and resolving defects in the execution pipeline
+- Modifications required for functional correctness
+- Performance optimizations specific to the runtime environment
+
+I assert copyright only over these specific remedial modifications. The majority of the codebase, including all original design patterns, proprietary methodologies, and core functionality remains exclusively owned by IBM Cognitive AI Platform. This notice does not transfer any ownership rights of the original IBM code.
+
+---
 # Important Notice: Local LLM Version Available
 If you want to test this chatbot but don't have an OpenAI or DeepSeek API key with available credit, I have created a special version that uses local LLMs instead of paid APIs:
 
