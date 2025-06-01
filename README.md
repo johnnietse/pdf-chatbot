@@ -219,7 +219,7 @@ Why Use the Local Version?
 
 The local version provides similar functionality to this API-based version but with no ongoing costs. You only need to download the model files once (about 600MB for TinyLlama, or 4-6GB for larger models).
 
-## 🎥 Demo Video
+## Demo Video
 A short walkthrough of the Conference Management System is available below. This demo highlights all core features, including attendee management, sponsorship controls, job postings, and session scheduling.
 
 ▶️ Watch the full demo here:
