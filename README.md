@@ -29,8 +29,9 @@ This project solves that: Create an AI assistant that digests PDFs in seconds an
 8. [Understanding The Server](#understanding-the-server)
 9. [Conclusions](#conclusions)
 10. [Project Attribution](#project-attribution)
-11. [Important Notice: Local LLM Version Available](#important-notice-local-llm-version-available)
-12. [Demo Video](#demo-video)
+11. [Copyright Statement](#copyright-statement)
+12. [Important Notice: Local LLM Version Available](#important-notice-local-llm-version-available)
+13. [Demo Video](#demo-video)
 
 ---
 
@@ -188,11 +189,11 @@ You’ve built a chatbot capable of:
 
 ---
 
-# Project Attribution
+## Project Attribution
 This chatbot was developed as part of a guided project tutorial provided by the IBM Cognitive Class AI platform. The project demonstrates the integration of Flask, LangChain, and Large Language Models (LLMs) to build an AI-powered assistant capable of analyzing and answering questions about PDF documents.
 
 ---
-# Copyright Statement
+## Copyright Statement
 The original codebase for this project is the intellectual property of IBM Cognitive AI Platform. All rights to the core architecture, foundational algorithms, and pre-existing implementation are retained by IBM.
 
 My contributions are limited to:
